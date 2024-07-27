@@ -1,0 +1,150 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.btn {
+  background-color: #ddd;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: #bbb;
+}
+
+#uploadButton {
+  background-color: purple;
+  color: white;
+}
+
+#uploadButton:hover {
+  background-color: #d4a1d4;
+}
+
+#result .btn {
+  background-color: purple;
+  color: white;
+  margin-top: 20px;
+}
+
+#result .btn:hover {
+  background-color: #d4a1d4;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.banner h1 {
+  font-size: 2.5em;
+  color: purple;
+  margin: 0.5em 0;
+}
+
+.banner h3 {
+  font-size: 1.2em;
+  color: #555;
+}
+
+.container {
+  width: 90%;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid purple;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: rgb(33, 33, 33);
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  bottom: 0;
+}
+
+footer .container-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-footer span {
+  color: purple;
+}
+
+.social-footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.social-footer a {
+  color: white;
+  font-size: 25px;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.social-footer a:hover {
+  color: purple;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .banner h1 {
+    font-size: 2em;
+  }
+
+  .banner h3 {
+    font-size: 1em;
+  }
+
+  .container {
+    width: 95%;
+    padding: 10px;
+  }
+
+  button {
+    width: 100%;
+    padding: 10px;
+  }
+
+  #result .btn {
+    width: 100%;
+  }
+}
